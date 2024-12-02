@@ -28,8 +28,8 @@ async def command(bot, m: Message):
                         reply_markup=InlineKeyboardMarkup([[
                             InlineKeyboardButton("⇆ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘs ⇆", url=f"https://telegram.me/{bot.username}?startgroup=Bots4Sale&admin=invite_users+manage_chat"),
                         ],[
-                            InlineKeyboardButton("• ᴜᴩᴅᴀᴛᴇꜱ •", url="https://telegram.me/RahulRevirwsYT"),
-                            InlineKeyboardButton("• ꜱᴜᴩᴩᴏʀᴛ •", url="https://telegram.me/CodeXSupport")
+                            InlineKeyboardButton("• ᴜᴩᴅᴀᴛᴇꜱ •", url="https://t.me/AeroBots_Tm"),
+                            InlineKeyboardButton("• ꜱᴜᴩᴩᴏʀᴛ •", url="https://t.me/AeroBots_Group")
                         ],[
                             InlineKeyboardButton("⇆ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ᴄʜᴀɴɴᴇʟ ⇆", url=f"https://telegram.me/{bot.username}?startchannel=Bots4Sale&admin=invite_users+manage_chat")
                         ]]))
@@ -37,7 +37,7 @@ async def command(bot, m: Message):
 @Client.on_message(filters.command("help"))
 async def codexbots(bot, message):
     btn = [[
-        InlineKeyboardButton(text='👨‍💻 ᴏᴡɴᴇʀ', url='https://telegram.me/CodeXBro'),
-        InlineKeyboardButton(text='💥 ʀᴇᴘᴏ', url='https://github.com/CodeXBots/Auto-Approve-Bot')
+        InlineKeyboardButton(text='👨‍💻 ᴏᴡɴᴇʀ', url='https://telegram.me/Mikoyo'),
+        InlineKeyboardButton(text='💥 ʀᴇᴘᴏ', url='https://github.com/CodeXBots/Shanu_Auto_Approval_Bot')
     ]]
     await message.reply_photo(photo='https://envs.sh/jbi.jpg', caption="<blockquote>❤️‍🔥 𝐓𝐡𝐚𝐧𝐤𝐬 𝐟𝐨𝐫 𝐬𝐡𝐨𝐰𝐢𝐧𝐠 𝐢𝐧𝐭𝐞𝐫𝐞𝐬𝐭 𝐢𝐧 𝐃𝐨𝐧𝐚𝐭𝐢𝐨𝐧</blockquote>\n\n<b><i>💞  ɪꜰ ʏᴏᴜ ʟɪᴋᴇ ᴏᴜʀ ʙᴏᴛ ꜰᴇᴇʟ ꜰʀᴇᴇ ᴛᴏ ᴅᴏɴᴀᴛᴇ ᴀɴʏ ᴀᴍᴏᴜɴᴛ ₹𝟷𝟶, ₹𝟸𝟶, ₹𝟻𝟶, ₹𝟷𝟶𝟶, ᴇᴛᴄ.</i></b>\n\n❣️ 𝐷𝑜𝑛𝑎𝑡𝑖𝑜𝑛𝑠 𝑎𝑟𝑒 𝑟𝑒𝑎𝑙𝑙𝑦 𝑎𝑝𝑝𝑟𝑒𝑐𝑖𝑎𝑡𝑒𝑑 𝑖𝑡 ℎ𝑒𝑙𝑝𝑠 𝑖𝑛 𝑏𝑜𝑡 𝑑𝑒𝑣𝑒𝑙𝑜𝑝𝑚𝑒𝑛𝑡\n\n💖 𝐔𝐏𝐈 𝐈𝐃 : <code>RahulReviews@UPI</code>", reply_markup=InlineKeyboardMarkup(btn))

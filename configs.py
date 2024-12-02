@@ -8,7 +8,7 @@ class Config:
  
     ADMIN = list(map(int, getenv("ADMIN", "5496176944").split()))
     LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", "-1002440247365"))
-    FORCE_SUB = int(getenv("FORCE_SUB", "Aero_Bots_tm"))
+    FORCE_SUB = int(getenv("FORCE_SUB", "-1001535524345"))
 
     # database configs
     DB_URL = os.environ.get("DB_URL", "mongodb+srv://TaktAsahina99:TaktAsahina99@cluster0.iq3cx2j.mongodb.net/?retryWrites=true&w=majority")

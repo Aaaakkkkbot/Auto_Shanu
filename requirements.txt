@@ -1,5 +1,4 @@
 pyrofork
-TgCrypto
+tgcrypto
+dnspython
 motor
-aiohttp
-pytz

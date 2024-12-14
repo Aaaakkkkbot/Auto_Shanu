@@ -4,7 +4,7 @@ import os, time
 class Config:
     API_ID = int(getenv("API_ID", "21418386"))
     API_HASH = getenv("API_HASH", "aeac46b1d123e82fe6dcb43b6a26cfae")
-    BOT_TOKEN = getenv("BOT_TOKEN", "7746109405:AAEt5sIJPunBLSw7Cq4CpwMtHLooJqrF2Ks")
+    BOT_TOKEN = getenv("BOT_TOKEN", "7746109405:AAGgi2J-weDitjwetXO8oiWtmOoJrZSI2cU")
  
     ADMIN = list(map(int, getenv("ADMIN", "5496176944").split()))
     LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", "-1002440247365"))
